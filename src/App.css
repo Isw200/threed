@@ -1,13 +1,13 @@
 .App {
-  background-color: #0d102d;
+  /* background-color: #0d102d; */
   width: 100%;
   overflow: hidden;
 }
 .App .body {
-  background-color: #0d102d;
+  /* background-color: #0d102d; */
 }
 .App .one {
-  background-color: #0d102d;
+  /* background-color: #0d102d; */
   color: black;
   width: 100%;
   height: 100vh;
@@ -23,6 +23,7 @@
 .App .landingBody {
   width: 84%;
   position: absolute;
+  height: 100vh;
   top: 0;
   margin-left: 8%;
   z-index: 332;

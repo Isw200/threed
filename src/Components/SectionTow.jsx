@@ -6,6 +6,7 @@ import services from "../Images/services.png";
 import person1 from "../Images/person1.png";
 import person2 from "../Images/person2.png";
 import person3 from "../Images/person3.png";
+import threedlap from "../Images/threedlap.png";
 import Form from "./Form";
 
 class SectionTow extends Component {
@@ -25,13 +26,8 @@ class SectionTow extends Component {
             </p>
             <div className="button">EXPLORE MORE</div>
           </div>
-          <div className="sectwomodel">
-            <div className="large">
-              <Spline scene="https://prod.spline.design/4ACsmfbbRdwR0cG9/scene.splinecode" />
-            </div>
-            <div className="mini">
-              <Spline scene="https://prod.spline.design/T0afTGeJVEXHCmjX/scene.splinecode" />
-            </div>
+          <div className="imagebox">
+            <img src={threedlap} alt="3d image" />
           </div>
         </section>
 
